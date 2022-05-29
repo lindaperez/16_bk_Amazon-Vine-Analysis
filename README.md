@@ -1,6 +1,6 @@
 # Amazon Vine Analysis
 
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview of the analysis
 
 Analysis od Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
 
@@ -8,22 +8,26 @@ The dataset contains reviews of a specific product for health personal care. It 
 
 ## Resources
 
-List of Datasets: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
-Dataset chosen: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Health_Personal_Care_v1_00.tsv.gz
+* List of Datasets: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
+* Dataset chosen: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Health_Personal_Care_v1_00.tsv.gz
 
-## Results: Using bulleted lists and images of DataFrames as support, address the following questions:
+## Questions addressed
 
 - How many Vine reviews and non-Vine reviews were there?
+
+![Non-Vine Reviews](https://github.com/lindaperez/Amazon_Vine_Analysis/blob/main/non-vine-reviews.png)
 
 
 - How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 
+![Vine Reviews](https://github.com/lindaperez/Amazon_Vine_Analysis/blob/main/vine_reviews.png)
 
 - What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
+![Totals](https://github.com/lindaperez/Amazon_Vine_Analysis/blob/main/totals.png)
 
+## Summary:  
 
-## Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+* There is no positivity bias founded for reviews in the Vine program. The percentage of Five stars Reviews for the paid program is less than the percentage of Five Stars received in the non-paid program.
 
-The summary states whether or not there is bias, and the results support this statement (2 pt)
-An additional analysis is recommended to support the statement (2 pt)
+* Could be interesting do the analysis for 4 star and identify if there is a relationship or correlation with the field verified purchase.
